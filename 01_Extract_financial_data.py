@@ -19,7 +19,7 @@ conn = pyodbc.connect('Driver={SQL Server};'
                       'Trusted_Connection=yes;')
 
 cursor = conn.cursor()
-cursor.execute('TRUNCATE TABLE stock.actions_detail ') # Se genera el cursor con el criterio
+cursor.execute('TRUNCATE TABLE stock.actions_detail ') 
 
 stocks = ['CIB']
 
